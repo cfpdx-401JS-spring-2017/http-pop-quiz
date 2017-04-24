@@ -1,2 +1,4 @@
+const http = require('http');
 const app = require('./lib/app');
-app.listen(3000);
+
+http.createServer(app).listen(3000);
