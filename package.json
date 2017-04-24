@@ -1,0 +1,30 @@
+{
+  "name": "http-pop-quiz",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "pretest": "eslint .",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/martypdx/http-pop-quiz.git"
+  },
+  "keywords": [],
+  "author": "Marty Nelson <marty@martypdx.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/martypdx/http-pop-quiz/issues"
+  },
+  "homepage": "https://github.com/martypdx/http-pop-quiz#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "chai-http": "^3.0.0",
+    "eslint": "^3.19.0",
+    "mocha": "^3.3.0"
+  }
+}
